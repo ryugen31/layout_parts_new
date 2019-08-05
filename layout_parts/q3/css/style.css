@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3__contents {
+  table-layout: fixed;
+  width: 100%;
+}
 
+.q3__contents th {
+  background-color: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3__contents td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.q3__contents th, .q3__contents td {
+  border: 1px solid #dedede;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q3__table__body tr:nth-child(even) :not(th) {
+  background-color: #ecf1f2;
+}
+
+.q3__contents .q3__table__body tr:last-child {
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */

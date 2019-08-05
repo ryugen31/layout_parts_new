@@ -1,5 +1,80 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6__q1__text {
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  text-align: center;
+  width: 90px;
+}
 
+.q6__box__content {
+  text-align: center;
+}
+
+.q6__text_textAlign .q6__q1__text {
+  display: inline-block;
+}
+
+.q6__text_margin .q6__q1__text {
+  margin: 0 auto;
+}
+
+.q6__q2__text {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.q6__cell .q6__q2__text {
+  display: inline-block;
+}
+
+.q6__table {
+  display: table;
+}
+
+.q6__cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6__flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.q6__stable .q6__position__text {
+  height: 10px;
+  width: 110px;
+}
+
+.q6__flexible .q6__position__text {
+  padding: 10px;
+}
+
+.q6__stable {
+  position: relative;
+}
+
+.q6__stable__text {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.q6__flexible {
+  position: relative;
+}
+
+.q6__flexible__text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 /* 回答はここに書いてね */
