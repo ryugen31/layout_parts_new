@@ -7,7 +7,7 @@
   margin-left: 10px;
 }
 
-.q8-btn .q8__btn:first-of-type {
+.q8__btn:first-of-type {
   margin-left: 0;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .q8__form {
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
   margin: 0 auto;
   padding: 20px;
   width: 700px;
@@ -80,7 +80,7 @@
 }
 
 .q8__form__title__text {
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -145,7 +145,7 @@
   outline: none;
 }
 
-.q8__input:focus {
+.q8__input:focus, .q8__side__text:focus {
   box-shadow:0 1px 8px rgba(0, 188, 212, 1), 0 1px 4px rgba(0, 0, 0, 0.12);
 }
 
@@ -290,9 +290,4 @@
   resize: none;
   width: 100%;
 }
-
-.q8__side__text:focus {
-  box-shadow:0 1px 8px rgba(0, 188, 212, 1), 0 1px 4px rgba(0, 0, 0, 0.12);
-}
-
 /* 回答はここに書いてね */

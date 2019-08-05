@@ -45,15 +45,6 @@
   justify-content: center;
 }
 
-.q6__stable .q6__position__text {
-  height: 10px;
-  width: 110px;
-}
-
-.q6__flexible .q6__position__text {
-  padding: 10px;
-}
-
 .q6__stable {
   position: relative;
 }
